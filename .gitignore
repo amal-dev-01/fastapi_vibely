@@ -1,0 +1,99 @@
+# ============================
+# Python
+# ============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# ============================
+# Virtual Environments
+# ============================
+venv/
+.env/
+.venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ============================
+# Environment & Secrets
+# ============================
+.env
+.env.*
+*.env
+
+# ============================
+# SQLite Database
+# ============================
+*.db
+*.sqlite3
+
+# ============================
+# Alembic
+# ============================
+alembic/versions/*.pyc
+alembic/versions/__pycache__/
+
+# ============================
+# Logs
+# ============================
+*.log
+logs/
+*.pid
+
+# ============================
+# Media / Uploads
+# ============================
+media/
+uploads/
+static/uploads/
+
+# ============================
+# Cache & Background Tasks
+# ============================
+celerybeat-schedule
+celerybeat.pid
+redis.dump
+
+# ============================
+# Test & Coverage
+# ============================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ============================
+# IDE / Editors
+# ============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ============================
+# OS Files
+# ============================
+.DS_Store
+Thumbs.db
+
+# ============================
+# Docker
+# ============================
+*.tar
+docker-compose.override.yml
+
+# ============================
+# Node (if frontend added later)
+# ============================
+node_modules/
+dist/
+build/
+
+# ============================
+# Mypy / Ruff / Linters
+# ============================
+.mypy_cache/
+.ruff_cache/
