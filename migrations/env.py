@@ -5,7 +5,7 @@ from alembic import context
 
 # Import your Base and models
 from app.database.base import Base
-from app.models import user, profile
+from app.models import user, profile, post
 # If more models exist, import them here:
 # from app.models import profile, post, etc.
 
